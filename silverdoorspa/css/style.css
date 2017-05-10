@@ -122,7 +122,7 @@ a:visited {
   transition: 1s ease-in-out;
 }
 
-#nav-items {
+#nav-items, #nav-items-mobile {
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
@@ -200,10 +200,6 @@ a:visited {
   }
 }
 
-#nav-items-mobile ul li {
-  visibility: collapse;
-}
-
 #nav-items-mobile #home {
   text-align: center;
   color: #f4f4f8;
@@ -211,4 +207,9 @@ a:visited {
 
 #nav-items-mobile #home:hover {
   cursor: pointer;
+}
+
+#nav-items-list {
+  visibility: hidden;
+  height: 0px;
 }
