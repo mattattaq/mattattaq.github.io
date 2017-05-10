@@ -1,0 +1,1 @@
+function closeMe(){console.log("clicked");var e=document.getElementById("closeMe"),n=document.getElementById("nav-items");e.style.transform="translateY(-50px)",n.style.transform="translateY(-40px)"}function openMenu(){console.log("clicked menu open")}
