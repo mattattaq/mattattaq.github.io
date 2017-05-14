@@ -47,7 +47,7 @@ html::-webkit-scrollbar body::-webkit-scrollbar {
 
 a {
   text-decoration: none;
-  color: #f4f4f8;
+  color: #b7b7b7;
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 }
 
 a:visited {
-  color: #f4f4f8;
+  color: #b7b7b7;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ a:visited {
 .text-container h3 {
   text-align: justify;
   font-family: 'Philosopher', sans-serif;
-  color: #f4f4f8;
+  color: #b7b7b7;
 }
 
 .text-container hr {
@@ -81,7 +81,7 @@ a:visited {
 }
 
 .text-container h4, h3, a {
-  color: #aeaeb2;
+  color: #fff;
   font-family: 'Philosopher', sans-serif;
 }
 
@@ -133,7 +133,7 @@ a:visited {
 
 .hide-menu {
   height: 50px;
-  background-color: #f4f4f8;
+  background-color: #b7b7b7;
 }
 
 .hide-menu a {
@@ -294,7 +294,7 @@ a:visited {
 
 #nav-items-mobile #home {
   text-align: center;
-  color: #f4f4f8;
+  color: #b7b7b7;
 }
 
 #nav-items-mobile #home:hover {
