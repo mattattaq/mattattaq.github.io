@@ -20,10 +20,6 @@ p {
   font-style: normal;
 }
 
-body {
-  min-height: 100vh;
-}
-
 body, html {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-x: hidden;
@@ -34,7 +30,7 @@ body, html {
 
 html {
   width: 100%;
-  height: 100vh;
+  height: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-x: hidden;
   overflow-y: auto;
@@ -197,14 +193,13 @@ hr.style14:after {
 }
 
 .mast {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-  background-image: url("../img/background.png");
-  background: cover no-repeat center center fixed;
+  background: url("../img/background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  overflow: scroll;
 }
 
 .mast::-webkit-scrollbar {
