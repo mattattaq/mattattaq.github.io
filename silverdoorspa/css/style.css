@@ -279,10 +279,9 @@ hr.style14:after {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .social {
-    bottom: 30px;
-    left: 50%;
+    visibility: hidden;
   }
 }
 
@@ -333,6 +332,56 @@ hr.style14:after {
   font-weight: bold;
   font-family: arial;
   font-size: 200px;
+}
+
+.social-mobile {
+  clear: both;
+  width: 320px;
+  margin: 0 auto;
+  height: 50px;
+  visibility: hidden;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+  .social-mobile {
+    visibility: visible;
+  }
+}
+
+.social-mobile span {
+  display: inline-block;
+  background: grey;
+  border-radius: 50%;
+  width: 25px;
+  margin-right: 25px;
+  height: 25px;
+  float: left;
+}
+
+.social-mobile span:hover {
+  background-color: #65c6b1;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.social-mobile span i {
+  line-height: 25px;
+  margin-left: 6px;
+  margin-top: 2px;
+  color: #333;
+}
+
+.social-mobile div {
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 415px) {
+  .social-mobile div:last-of-type {
+    margin-top: -2px;
+  }
 }
 
 #close-option {
