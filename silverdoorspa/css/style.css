@@ -151,8 +151,13 @@ hr.style14:after {
   }
 }
 
-.text-content h1, h2, h3, h4, h5 {
+.text-content h1, h2, h3 {
   font-family: "Abril Fatface", cursive;
+}
+
+.text-content h4 {
+  font-family: "Philosopher", sans-serif !important;
+  font-weight: bold;
   color: #333;
 }
 
