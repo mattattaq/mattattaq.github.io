@@ -202,14 +202,21 @@ hr.style14:after {
 
 .request-appointment {
   width: 100%;
-  min-width: 320px;
+  min-width: 225px;
   min-height: 600px;
+}
+
+@media screen and (max-width: 415px) {
+  .request-appointment {
+    margin-right: 75px;
+  }
 }
 
 .gallery img {
   width: 200px;
   height: 200px !important;
   border-radius: 10px;
+  margin-top: 5px;
 }
 
 #wrapper {
