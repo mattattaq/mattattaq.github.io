@@ -507,8 +507,8 @@ footer #social{
   padding: 10px 0 10px 0;
 }
 #toTop {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding: 7px;
   background-color: white;
   visibility: hidden;
@@ -525,9 +525,7 @@ footer #social{
 }
 #toTop a {
   text-decoration: none;
-  text-align: justify;
-  font-size: 16px;
-  margin-left: 5px;
+  font-size: 13px;
   color: #4c4c4c;
   font-family: 'Raleway',sans-serif;
   font-weight: bold;
