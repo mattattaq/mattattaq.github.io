@@ -538,6 +538,10 @@ footer #social{
   font-family: 'Raleway',sans-serif;
   font-weight: bold;
 }
+#sec3 .container .right {
+  margin-top: 38px;
+  box-shadow: 0 0 0 0;
+}
 @media screen and (max-width: 959px){
   .left{
     width: 100%;
