@@ -342,6 +342,9 @@ to { -webkit-transform: rotateY(2160deg); -moz-transform: rotateY(2160deg); tran
   width: 45%;
   position: relative;
 }
+.panel h3 {
+  padding-left: 12px;
+}
 
 .tl-year div{
   color: grey;
