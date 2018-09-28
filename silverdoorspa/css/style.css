@@ -338,10 +338,11 @@ hr.style14:after {
 }
 
 .social .fa {
-  font-size: 18px;
-  margin-left: 2px;
+  font-size: 14px;
+  margin-left: 4px;
   margin-top: 2px;
   display: block;
+  color: white;
 }
 
 .social h1 {
