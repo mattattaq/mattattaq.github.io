@@ -1,8 +1,9 @@
 @charset "UTF-8";
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css");
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+/* @import url("https://fonts.googleapis.com/css?family=Abril+Fatface"); */
 @import url("https://fonts.googleapis.com/css?family=Philosopher");
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: normal;
@@ -13,12 +14,12 @@ p {
   font-family: 'Philosopher', sans-serif;
 }
 
-@font-face {
+/* @font-face {
   src: url("https://fonts.googleapis.com/css?family=Abril+Fatface");
   font-family: 'Abril Fatface', cursive;
   font-weight: normal;
   font-style: normal;
-}
+} */
 body, html {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-x: hidden;
@@ -151,7 +152,7 @@ hr.style14:after {
 }
 
 .text-content h1, h2, h3 {
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 .text-content h4 {
@@ -256,7 +257,7 @@ hr.style14:after {
 }
 
 .mast ul li {
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 .mast ul li a:hover {
@@ -277,7 +278,7 @@ hr.style14:after {
 .hide-menu a {
   vertical-align: middle;
   color: #666;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Cinzel Decorative', cursive;
   text-decoration: underline;
   font-size: 18px;
   text-align: center;
