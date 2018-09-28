@@ -113,7 +113,6 @@ hr.style14:after {
 
 .logo-img {
   width: 50%;
-  margin-top: 10%;
 }
 
 .text-container {
@@ -164,7 +163,7 @@ hr.style14:after {
 .text-content .col-md-12 img {
   max-width: 100%;
   height: auto;
-  background-color: red;
+  margin-bottom: 10px;
 }
 
 .text-content .col-md-6 img {
@@ -439,6 +438,7 @@ hr.style14:after {
 #nav-items {
   visibility: visible;
   height: auto;
+  position: fixed;
 }
 
 @media screen and (max-width: 1199px) {
