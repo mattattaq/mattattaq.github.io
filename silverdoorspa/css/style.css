@@ -20,6 +20,7 @@ p {
   font-weight: normal;
   font-style: normal;
 } */
+
 body, html {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-x: hidden;
@@ -113,6 +114,19 @@ hr.style14:after {
 
 .logo-img {
   width: 50%;
+}
+.cta-book {
+  background-color: #2181b3;
+  padding: 7px;
+  color: white;
+  border: 1px solid #2181b3;
+  border-radius: 5px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.cta-book:hover {
+  background-color: #6caac9;
+  color: #2181b3 !important;
 }
 
 .text-container {
@@ -446,6 +460,14 @@ hr.style14:after {
   #nav-items {
     visibility: hidden;
     height: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cta-book {
+    display: block;
+    max-width: 250px;
+    margin-top: 12px;
+    font-size: 16px;
   }
 }
 
