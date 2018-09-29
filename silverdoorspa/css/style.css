@@ -123,6 +123,7 @@ hr.style14:after {
   border-radius: 5px;
   font-size: 12px;
   vertical-align: middle;
+  text-align: center;
 }
 .cta-book:hover {
   background-color: #6caac9;
@@ -468,6 +469,9 @@ hr.style14:after {
     max-width: 250px;
     margin-top: 12px;
     font-size: 16px;
+  }
+  .text-content .row {
+    padding: 5px;
   }
 }
 
