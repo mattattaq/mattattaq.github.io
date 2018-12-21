@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'dotted';
+    src: url('../fonts/fake-receipt.regular.ttf') format('truetype'),
+    url('../fonts/fake-receipt.regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Economica', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Economica');
+}
+@font-face {
+    font-family: 'Major Mono Display', monospace;
+    src: url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+}
+.orange {
+    background-color: $orange;
+}
+p {
+    font-family: 'Economica', sans-serif;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Major Mono Display', monospace;
+}
