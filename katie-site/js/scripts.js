@@ -1,7 +1,7 @@
 jQuery( document ).ready(function() {
     if(jQuery("#input")) {
         console.log('character page');
-        var img = $('#profile');
+        var img = $('.profile');
         var alt_text = img.attr('alt');
         var text = $('#text');
         if(alt_text == "" || alt_text == undefined) {
