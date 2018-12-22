@@ -62,8 +62,8 @@ gulp.task('html', function () {
 // Watch for changes in JS, Sass, and HTML files, then Lint,
 // Uglify, Process the Sass, and reload the browser automatically
 gulp.task('watch', function () {
-    gulp.watch('js/**/*.js', ['lint']);
-    gulp.watch('js/**/*.js', ['uglify']);
+    gulp.watch('js/*.js', ['lint']);
+    gulp.watch('js/*.js', ['uglify']);
     gulp.watch('scss/**/**.*', ['sass']);
     gulp.watch('**/*.html', ['html']);
 
