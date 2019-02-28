@@ -13,11 +13,11 @@ jQuery( document ).ready(function() {
             var a = $(this).data('src');
             if(a == 'ileum') {
                 $(img).attr('alt', a + '\'s profile');
-                img.attr('src','../img/char/ksilver_ileum.jpg');
+                img.attr('src','./img/char/ksilver_ileum.jpg');
                 text.text(a + ' testing');
             } else if (a == 'joon') {
                 $(img).attr('alt', a + '\'s profile');
-                img.attr('src', '../img/char/ksilver_joon.jpg');
+                img.attr('src', './img/char/ksilver_joon.jpg');
                 console.log('joon');
                 text.text(a + ' testing');
             } else if (a == 'deva') {
