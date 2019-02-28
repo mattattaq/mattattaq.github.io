@@ -21,6 +21,10 @@
         cursor: pointer;
         text-decoration: none;
     }
+    @media screen and (max-width: 768px) {
+        display: inline-block;
+    }
+
 }
 .btn-1 {
     background-image: url('../img/footstep_1.svg');
@@ -74,4 +78,8 @@
         height: 100%;
         width: 100%;
     }
+}
+// character page
+#profile {
+    height: 400px;
 }

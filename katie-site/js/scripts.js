@@ -1,7 +1,7 @@
 jQuery( document ).ready(function() {
     if(jQuery("#input")) {
         console.log('character page');
-        var img = $('.profile');
+        var img = $('#profile');
         var alt_text = img.attr('alt');
         var text = $('#text');
         if(alt_text == "" || alt_text == undefined) {
@@ -13,10 +13,11 @@ jQuery( document ).ready(function() {
             var a = $(this).data('src');
             if(a == 'ileum') {
                 $(img).attr('alt', a + '\'s profile');
-                console.log('ileum');
+                img.attr('src','../../img/char/ksilver_ileum.jpg');
                 text.text(a + ' testing');
             } else if (a == 'joon') {
                 $(img).attr('alt', a + '\'s profile');
+                img.attr('src', '../../img/char/ksilver_joon.jpg');
                 console.log('joon');
                 text.text(a + ' testing');
             } else if (a == 'deva') {

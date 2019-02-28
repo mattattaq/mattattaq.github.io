@@ -22,3 +22,8 @@
         width: 85vw;
     }
 }
+.my-btn {
+    @media screen and (max-width: 768px) {
+        display: inline-block;
+    }
+}
