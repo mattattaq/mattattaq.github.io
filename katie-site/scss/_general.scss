@@ -83,3 +83,14 @@
 #profile {
     height: 400px;
 }
+
+// credit page
+.fancy-list {
+    list-style: none;
+    li {
+        display: inline;
+        margin-right: 20px;
+        font-weight: 600;
+        text-shadow: $neat-colors;
+    }
+}

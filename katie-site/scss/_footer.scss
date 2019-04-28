@@ -1,0 +1,54 @@
+.katie-footer {
+    padding-top: 2%;
+    padding-bottom:2%;
+    color: white;
+    background: $color-2;
+    p{
+        text-align: left;
+        @media screen and (max-width: 768px ) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .footer-form{
+        text-align: left;
+        @media screen and (max-width: 768px) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        span {
+            text-align: left;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        input {
+            width: 65%;
+            float: right;
+            background-color: $blue-1;
+            border-radius: 5px;
+        }
+        textarea {
+            width: 100%;
+            background-color: $blue-1;
+            border-radius: 5px;
+            max-width: 100%;
+        }
+        .form-btn {
+            background-color: whitesmoke;
+            color: grey;
+            padding: 5px;
+            width: 100px;
+            font-weight: 600;
+        }
+    }
+    footer {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+.fancy-text {
+    font-family: $fancy-text;
+}
+.neat-color {
+    text-shadow: $neat-colors;
+}
