@@ -59,4 +59,23 @@ jQuery( document ).ready(function() {
             }
         }
     }
+    jQuery('.form-btn').click(function(e){
+        e.preventDefault();
+        console.log('clicked button');
+        // grab the inputs
+        var name = jQuery('input[name^=fname]')[0].value;
+        var subject = jQuery('input[name^=subject]')[0].value;
+        var message = jQuery('textarea[name^=text-area]')[0].value;
+        var err = jQuery('span.error');
+        if(name == ''){
+            err.text('Oh no! You need a name!')
+        } else if(subject == '') {
+            err.text('Oh no! You need a subject');
+        } else {
+            document.location.href = "mailto:kathrynasilver@gmail.com?subject=" + subject + '&body=' + message;
+        }
+        console.log(name);
+        console.log(subject);
+        console.log(message);
+    });
 });
