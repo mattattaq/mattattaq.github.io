@@ -5,26 +5,27 @@ jQuery( document ).ready(function() {
         var alt_text = img.attr('alt');
         var text = $('#text');
         if(alt_text == "" || alt_text == undefined) {
-            $(img).attr('alt', 'Ileum\'s profile');
-            text.text('testing');
+            var a = $(this).data('src');
+            $(img).attr('alt', a + '\'s profile');
+            img.attr('src','./img/char/ksilver_ileum.jpg');
+            text.text( 'ILEUM: New to the reaper world Ileum is ready to reap his first soul. Ileum does not remember who he was before he was a reaper or that he had a life.  Ileum uses the different shoes to change how he looks to be more relatable to the souls he is guiding.');
         }
-        // img.attr('src','../img/ileum.jpg');
         jQuery("#input button").click(function(){
             var a = $(this).data('src');
             if(a == 'ileum') {
                 $(img).attr('alt', a + '\'s profile');
                 img.attr('src','./img/char/ksilver_ileum.jpg');
-                text.text(a + ': New to the reaper world Ileum is ready to reap his first soul. Ileum does not remember who he was before he was a reaper or that he had a life.  Ileum uses the different shoes to change how he looks to be more relatable to the souls he is guiding.');
+                text.text(a.toUpperCase() + ': New to the reaper world Ileum is ready to reap his first soul. Ileum does not remember who he was before he was a reaper or that he had a life.  Ileum uses the different shoes to change how he looks to be more relatable to the souls he is guiding.');
             } else if (a == 'joon') {
                 $(img).attr('alt', a + '\'s profile');
                 img.attr('src', './img/char/ksilver_joon.jpg');
                 console.log('joon');
-                text.text(a + ': Joon was a back up dancer for the group Shine 5.  He idolized one of the singers named Jii, who gave him his shoes  to help him calm his nerves when he was auditioning. When Joon finds out that Jii took his own life Joon spirals out of control and is hit by a car. After being hit he spots Jii as a reaper, only to have Jii run away. He is now helping Ileum, who seems very familiar to Joon.');
+                text.text(a.toUpperCase() + ': Joon was a back up dancer for the group Shine 5.  He idolized one of the singers named Jii, who gave him his shoes  to help him calm his nerves when he was auditioning. When Joon finds out that Jii took his own life Joon spirals out of control and is hit by a car. After being hit he spots Jii as a reaper, only to have Jii run away. He is now helping Ileum, who seems very familiar to Joon.');
             } else if (a == 'deva') {
                 $(img).attr('alt', a + '\'s profile');
                 img.attr('src', './img/char/ksilver_deva.jpg');
                 console.log('deva');
-                text.text(a + ' testing');
+                text.text(a + ' Deva is the head-reaper. He is wise and cares for his souls very much. He finds solace in helping them realize they are worth more.');
             } else if (a == 'manager') {
                 $(img).attr('alt', a + '\'s profile');
                 console.log('manager');
@@ -32,13 +33,12 @@ jQuery( document ).ready(function() {
             } else if (a == 'shine-5') {
                 $(img).attr('alt', a + '\'s profile');
                 console.log('shine-5');
-                text.text(a + ' testing');
+                text.text(a.toUpperCase() + ': is a k-pop idol group. Notable songs include "Bubbles", "Watson", "Reqind", and "Day Dream". Known for their unique vocals they were able to debut in China and throughout Europe. One of the member Choi Ji-Hoon (known as Ji) passed away in 2015. Since they they have released an albule while other members were drafted into service.');
             } else if (a == 'bo-ra') {
                 $(img).attr('alt', a + '\'s profile');
                 console.log('bo-ra');
                 text.text(a + ' testing');
             }
-            console.log("character clicked");
         });
     }
     if(jQuery("#comic-carousel")) {
