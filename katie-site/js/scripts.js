@@ -58,7 +58,5 @@ jQuery( document ).ready(function() {
                 }
             }
         }
-        console.log(activePage);
-        jQuery("#comic-page-title").text(jQuery(activePage).attr('alt'));
     }
 });
