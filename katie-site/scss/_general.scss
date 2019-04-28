@@ -61,14 +61,20 @@
     max-width: 1024px;
     margin: auto;
 }
+.carousel-item p{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.carousel-item img {
+    height: auto;
+}
 .carousel-control-prev, .carousel-control-next {
     background-color: rgba(0,0,0,0.5);
 }
 .carousel-inner {
-    border: solid;
-    height: 500px;
     width: 700px;
-    height: 800px;
+    height: auto;
     margin: 0 auto;
     @media screen and (max-width: 1024px) {
         width: 100%;

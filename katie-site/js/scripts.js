@@ -51,14 +51,14 @@ jQuery( document ).ready(function() {
         request.onload = function() {
             var pages = request.response;
             for(var i=0; pages.pages.length > i; i++) {
-                if(i==1){
-                    jQuery("#comic-carousel").append('<div class="carousel-item active"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"></div>');
+                if(i==0){
+                    jQuery("#comic-carousel").append('<div class="carousel-item active"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
                 } else {
-                    jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"></div>');
+                    jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
                 }
-                
-                
             }
         }
+        console.log(activePage);
+        jQuery("#comic-page-title").text(jQuery(activePage).attr('alt'));
     }
 });
