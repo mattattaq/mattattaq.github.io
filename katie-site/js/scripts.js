@@ -43,6 +43,7 @@ jQuery( document ).ready(function() {
         });
     }
     if(jQuery("#comic-carousel")) {
+       
         console.log('comic\'s page');
         var requestUrl = "./js/pages-manifest.json";
         var request = new XMLHttpRequest();
@@ -55,10 +56,16 @@ jQuery( document ).ready(function() {
                 if(i==0){
                     jQuery("#comic-carousel").append('<div class="carousel-item active"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
                 } else {
-                    jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
+                    jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" data-src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
                 }
             }
         }
+        $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
+            // do something…
+            var image = $(e.relatedTarget).find('img[data-src]');
+            image.attr('src', image.data('src'));
+            image.removeAttr('data-src');
+          })
     }
     jQuery('.form-btn').click(function(e){
         e.preventDefault();
