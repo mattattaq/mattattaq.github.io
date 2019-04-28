@@ -43,7 +43,7 @@ jQuery( document ).ready(function() {
     }
     if(jQuery("#comic-carousel")) {
         console.log('comic\'s page');
-        var requestUrl = "../js/pages-manifest.json";
+        var requestUrl = "./js/pages-manifest.json";
         var request = new XMLHttpRequest();
         request.open('GET', requestUrl);
         request.responseType = 'json';
