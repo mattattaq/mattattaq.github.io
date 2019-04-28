@@ -36,8 +36,9 @@ jQuery( document ).ready(function() {
                 text.text(a.toUpperCase() + ': is a k-pop idol group. Notable songs include "Bubbles", "Watson", "Reqind", and "Day Dream". Known for their unique vocals they were able to debut in China and throughout Europe. One of the member Choi Ji-Hoon (known as Ji) passed away in 2015. Since they they have released an albule while other members were drafted into service.');
             } else if (a == 'bo-ra') {
                 $(img).attr('alt', a + '\'s profile');
+                img.attr('src','./img/char/ksilver_bo-ra.jpg');
                 console.log('bo-ra');
-                text.text(a + ' testing');
+                text.text(a.toUpperCase() + ' Bo-ra is an artist under the same label as Ji. She has always looked up to him even though they debuted in the same year. She has a very caring personality and always wants to help which gets her in trouble when trying to help Ji come up with a concept for debuting solo.');
             }
         });
     }
