@@ -22,6 +22,7 @@ jQuery( document ).ready(function() {
                 text.text(a + ': Joon was a back up dancer for the group Shine 5.  He idolized one of the singers named Jii, who gave him his shoes  to help him calm his nerves when he was auditioning. When Joon finds out that Jii took his own life Joon spirals out of control and is hit by a car. After being hit he spots Jii as a reaper, only to have Jii run away. He is now helping Ileum, who seems very familiar to Joon.');
             } else if (a == 'deva') {
                 $(img).attr('alt', a + '\'s profile');
+                img.attr('src', './img/char/ksilver_deva.jpg');
                 console.log('deva');
                 text.text(a + ' testing');
             } else if (a == 'manager') {
@@ -39,5 +40,25 @@ jQuery( document ).ready(function() {
             }
             console.log("character clicked");
         });
+    }
+    if(jQuery("#comic-carousel")) {
+        console.log('comic\'s page');
+        var requestUrl = "../js/pages-manifest.json";
+        var request = new XMLHttpRequest();
+        request.open('GET', requestUrl);
+        request.responseType = 'json';
+        request.send();
+        request.onload = function() {
+            var pages = request.response;
+            for(var i=0; pages.pages.length > i; i++) {
+                if(i==1){
+                    jQuery("#comic-carousel").append('<div class="carousel-item active"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"></div>');
+                } else {
+                    jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"></div>');
+                }
+                
+                
+            }
+        }
     }
 });
