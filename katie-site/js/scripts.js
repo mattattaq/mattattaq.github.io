@@ -25,7 +25,7 @@ jQuery( document ).ready(function() {
                 $(img).attr('alt', a + '\'s profile');
                 img.attr('src', './img/char/ksilver_deva.jpg');
                 console.log('deva');
-                text.text(a + ' Deva is the head-reaper. He is wise and cares for his souls very much. He finds solace in helping them realize they are worth more.');
+                text.text(a.toUpperCase() + ': Deva is the head-reaper. He is wise and cares for his souls very much. He finds solace in helping them realize they are worth more.');
             } else if (a == 'manager') {
                 $(img).attr('alt', a + '\'s profile');
                 console.log('manager');
@@ -38,7 +38,7 @@ jQuery( document ).ready(function() {
                 $(img).attr('alt', a + '\'s profile');
                 img.attr('src','./img/char/ksilver_bo-ra.jpg');
                 console.log('bo-ra');
-                text.text(a.toUpperCase() + ' Bo-ra is an artist under the same label as Ji. She has always looked up to him even though they debuted in the same year. She has a very caring personality and always wants to help which gets her in trouble when trying to help Ji come up with a concept for debuting solo.');
+                text.text(a.toUpperCase() + ' is an artist under the same label as Ji. She has always looked up to him even though they debuted in the same year. She has a very caring personality and always wants to help which gets her in trouble when trying to help Ji come up with a concept for debuting solo.');
             }
         });
     }
