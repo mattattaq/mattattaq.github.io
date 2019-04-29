@@ -39,62 +39,6 @@
         {
             "name": "10",
             "src": "./img/pages/page-10.jpg"
-        },
-        {
-            "name": "11",
-            "src": "./img/pages/page-11.jpg"
-        },
-        {
-            "name": "12",
-            "src": "./img/pages/page-12.jpg"
-        },
-        {
-            "name": "13",
-            "src": "./img/pages/page-13.jpg"
-        },
-        {
-            "name": "14",
-            "src": "./img/pages/page-14.jpg"
-        },
-        {
-            "name": "15",
-            "src": "./img/pages/page-15.jpg"
-        },
-        {
-            "name": "16",
-            "src": "./img/pages/page-16.jpg"
-        },
-        {
-            "name": "17",
-            "src": "./img/pages/page-17.jpg"
-        },
-        {
-            "name": "18",
-            "src": "./img/pages/page-18.jpg"
-        },
-        {
-            "name": "19",
-            "src": "./img/pages/page-19.jpg"
-        },
-        {
-            "name": "20",
-            "src": "./img/pages/page-20.jpg"
-        },
-        {
-            "name": "21",
-            "src": "./img/pages/page-21.jpg"
-        },
-        {
-            "name": "22",
-            "src": "./img/pages/page-22.jpg"
-        },
-        {
-            "name": "23",
-            "src": "./img/pages/page-23.jpg"
-        },
-        {
-            "name": "24",
-            "src": "./img/pages/page-24.jpg"
         }
     ]
 }
