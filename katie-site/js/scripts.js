@@ -65,6 +65,7 @@ jQuery( document ).ready(function() {
             var image = $(e.relatedTarget).find('img[data-src]');
             image.attr('src', image.data('src'));
             image.removeAttr('data-src');
+            console.log(image);
           })
     }
     jQuery('.form-btn').click(function(e){
