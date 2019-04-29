@@ -39,6 +39,10 @@
         {
             "name": "10",
             "src": "./img/pages/page-10.jpg"
+        },
+        {
+            "name": "visit my gumroad to see the rest!",
+            "src": "./img/pages/page-11-last.jpg"
         }
     ]
 }

@@ -55,7 +55,10 @@ jQuery( document ).ready(function() {
             for(var i=0; pages.pages.length > i; i++) {
                 if(i==0){
                     jQuery("#comic-carousel").append('<div class="carousel-item active"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
-                } else {
+                }else if(i==pages.pages.length - 1){
+                    jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '" target="_blank"><p><a href="https://gumroad.com/ksilvsart" title="My gumroad page, click to read the rest of the comic!">'+ pages.pages[i].name + '</a></p></div>');
+                }
+                else {
                     jQuery("#comic-carousel").append('<div class="carousel-item"><img class="d-block w-100" data-src="' + pages.pages[i].src +'" alt="' + pages.pages[i].name + '"><p>Page '+ pages.pages[i].name + '</p></div>');
                 }
             }
