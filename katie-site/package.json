@@ -27,7 +27,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "jshint": "^2.9.2",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.19",
     "sass": "^0.5.0"
   },
   "dependencies": {
