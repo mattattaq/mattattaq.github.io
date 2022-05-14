@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './myjs.js';
 import Header from './components/header/Header';
 import Profile from './components/profile/Profile';
 
@@ -9,7 +10,6 @@ function App() {
       <Header />
       <Profile />
         {/* 
-
         <section id="sec3">
           <div id="toTop"><a href="#wrapper">Scroll to Top</a></div>
           <div class="container">
