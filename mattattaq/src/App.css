@@ -539,7 +539,8 @@ footer #social{
 }
 #toTop a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 10px;
+  line-height: 11px;
   color: #4c4c4c;
   font-family: 'Raleway',sans-serif;
   font-weight: bold;
