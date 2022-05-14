@@ -1,16 +1,59 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faFacebook,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
-function Header() {
+const socialLinks = [{
+    link: "https://www.facebook.com/MattAttaqArt/?fref=ts",
+    font: faFacebook,
+    id: "facebook"
+    },
+    {
+    link: "https://twitter.com/MattAttaqComic",
+    font: faTwitter,
+    id: "twit"
+    },
+    {
+    link: "https://www.linkedin.com/in/matthew-allbright-b4896749",
+    font: faLinkedin,
+    id: "linkedin"
+    },
+    {
+    link: "mailto:mattatttaq@gmail.com",
+    font: faEnvelope,
+    id: "mail"
+    }];
+
+
+export default function Header() {
     return(
     <section id="sec1">
         <ul id="social">
-        <a href="https://www.facebook.com/MattAttaqArt/?fref=ts" target="_blank"><li id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
-        <a href="https://twitter.com/MattAttaqComic" target="_blank"><li id="twit"><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
-        <a href="https://www.linkedin.com/in/matthew-allbright-b4896749" target="_blank"><li id="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
-        <a href="mailto:mattatttaq@gmail.com"><li id="mail"><i class="fa fa-envelope" aria-hidden="true"></i></li></a>
+            {socialLinks.map( social =>
+                <a href={social.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={social.id}
+                >
+                    <li id={social.id}>
+                        <FontAwesomeIcon
+                            icon={social.font}
+                            color="#fff"
+                            size="2xl"
+                            style={{
+                                marginTop: '9px'
+                            }}
+                        />
+                    </li>
+                </a>
+            )}
         </ul>
     </section>
     );
 }
-
-export default Header;
