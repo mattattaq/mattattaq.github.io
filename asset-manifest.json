@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.20d28d39.css",
-    "main.js": "/static/js/main.14c7a71a.js",
+    "main.css": "/static/css/main.c4c2505f.css",
+    "main.js": "/static/js/main.76969e01.js",
     "static/js/787.3c335528.chunk.js": "/static/js/787.3c335528.chunk.js",
+    "static/media/vincent.png": "/static/media/vincent.ad42bb075de9bad1e648.png",
+    "static/media/schabel_realty_old.png": "/static/media/schabel_realty_old.410824fcc48267e93da1.png",
+    "static/media/schabel_realty_new.png": "/static/media/schabel_realty_new.ff61a5fa294320f1b118.png",
     "static/media/background.jpg": "/static/media/background.34466ef08a03d9031170.jpg",
+    "static/media/t6_blog.png": "/static/media/t6_blog.8741c10058415b3e5073.png",
+    "static/media/t5_rolodorks.png": "/static/media/t5_rolodorks.006a7a6de3b5271535cb.png",
+    "static/media/t2_rtr.png": "/static/media/t2_rtr.5b8a754f1e0179607021.png",
+    "static/media/t1_mattattaq.png": "/static/media/t1_mattattaq.de69cbc48908c40672f8.png",
     "static/media/heads.png": "/static/media/heads.0599ca29f20458c1de31.png",
     "static/media/react.png": "/static/media/react.cd4ab68456d5875b788e.png",
+    "static/media/t4_silverdoorspa.png": "/static/media/t4_silverdoorspa.79a6e1dee11a19452da5.png",
+    "static/media/t3_github.png": "/static/media/t3_github.06ec7bc309fdd7d7b130.png",
     "index.html": "/index.html",
-    "main.20d28d39.css.map": "/static/css/main.20d28d39.css.map",
-    "main.14c7a71a.js.map": "/static/js/main.14c7a71a.js.map",
+    "main.c4c2505f.css.map": "/static/css/main.c4c2505f.css.map",
+    "main.76969e01.js.map": "/static/js/main.76969e01.js.map",
     "787.3c335528.chunk.js.map": "/static/js/787.3c335528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d28d39.css",
-    "static/js/main.14c7a71a.js"
+    "static/css/main.c4c2505f.css",
+    "static/js/main.76969e01.js"
   ]
 }
