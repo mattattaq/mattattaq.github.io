@@ -1,46 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/header/Header';
+import Profile from './components/profile/Profile';
 
 function App() {
   return (
     <div className="App" id="wrapper">
       <Header />
+      <Profile />
         {/* 
-        <section id="sec2">
-          <div class="headImg">
-            <div id="coin-flip-cont">
-              <div id="coin">
-                <div class="front"></div>
-                  <div class="back"></div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div id="mast">
-              <h1>Matthew Allbright - Front End Developer/Artist</h1>
-            </div>
-            <br>
-            <div class="col-2">
-              <h3 class="break lite">Welcome to my portfolio website hosted via <i>gh-pages</i>. Here is where I've got a <a href="#sec4"><i>timeline</i></a> of my accomplishments during and after college. It includes my first <a href="#gn"><i>graphic novel</i></a>, various conventions i've been to, and my job history that pertains to being a <i>web developer</i>. I also have examples of projects I've done for myself or work. You'll also find a link to my <a href="#gh"><i>github</i></a> account where I have some code examples.</h3>
-              <h3 class="break lite">If you have any questions or comments you can contact me <i><a href="mailto:mattatttaq@gmail.com">here</a></i> or my social media links above.</h3>
-            </div>
-            <div class="col-3" style="margin-left: 15px;">
-              <h1>Technology</h1>
-              <!-- <hr> -->
-              <h3 class="lite">React, Redux, JavaScript, jQuery, Sass, HTML/CSS, Bootstrap, Foundation, PHP, git</h3>
-              <br>
-              <H1>Software</H1>
-              <!-- <hr> -->
-              <h3 class="lite">Adobe Creative Suite, inVision, Visual Studio: Code </h3>
-              <br>
-              <h1>Familiar With:</h1>
-              <!-- <hr> -->
-              <h3 class="lite"> Gulp, Brew, Webpack, Node, Wordpress, Drupal, SalesForce Marketing Cloud</h3>
-              <!-- <hr> -->
-              <!-- creating a scroll to top element -->
-            </div>
-          </div>
-        </section>
 
         <section id="sec3">
           <div id="toTop"><a href="#wrapper">Scroll to Top</a></div>

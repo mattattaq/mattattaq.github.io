@@ -434,11 +434,7 @@ to { -webkit-transform: rotateY(2160deg); -moz-transform: rotateY(2160deg); tran
   text-align: center;
   margin-bottom: 10px;
 }
-#sec1{
-  background-image: url(img/background.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 #social li:hover{
   background-color: purple;
 }
