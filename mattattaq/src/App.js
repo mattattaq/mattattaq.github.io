@@ -3,134 +3,15 @@ import './App.css';
 import './myjs.js';
 import Header from './components/header/Header';
 import Profile from './components/profile/Profile';
+import FeaturedProjects from './components/featuredProjects/FeaturedProjects';
 
 function App() {
   return (
     <div className="App" id="wrapper">
       <Header />
       <Profile />
+      <FeaturedProjects />
         {/* 
-        <section id="sec3">
-          <div id="toTop"><a href="#wrapper">Scroll to Top</a></div>
-          <div class="container">
-            <div class="left">
-              <h2>Projects</h2>
-
-              <div class="panel">
-                <a href="https://mattattaq.github.io/vincent-fults-guitar" target="_blank"><img src="img/vincent.png" alt="Vincent Fults Guitar Website"></a>
-                <h1>Vincent Fult's Website</h1>
-                <p>My buddy who is a guitar teacher quit his job at Sam Ash to pursue music and wanted to work for himself. I built him a website to help him gather students. The things is he's so popular that his rolodex wass filled nearly instantly! Luckily if he needs it this website will help organize future and current students.</p>
-                <h3>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-js"></span>
-                  <span class="svg svg-css"></span>
-                </h3>
-              </div>
-
-              <div class="panel">
-                <a href="http://schabel-realty.com/" target="_blank"><img src="img/t3_schabel.png" alt="Schabel Property Management Group"></a>
-                <h1>Schabel Property Management Group Website</h1>
-                <p>Tasked to upgrade an old site to a more modern mobile responsive site. Also updated the logo and created a graphic that can be used for their business card as well as colorizing a b&w photo to use as their main mast image. <a href="img/schabel_realty_old.png" target="_blank">Here is the old version of the site</a> versus the <a href="img/schabel_realty_new.png" target="_blank">new site</a>.</p>
-                <h3>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-css"></span>
-                  <span class="svg svg-art"></span>
-                </h3>
-              </div>
-
-              <div class="panel">
-                <a href="http://silverdoorspa.com/" target="_blank"><img src="img/t4_silverdoorspa.png" alt="Silver Door Spa"></a>
-                <h1>Silver Door Spa</h1>
-                <p>Upgraded website from old php template to custom redesign. Source code can be found on my
-                  <a href="https://github.com/mattattaq/mattattaq.github.io/tree/master/silverdoorspa" target="_blank">GitHub</a>.
-                </p>
-                <h3>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-css"></span>
-                  <span class="svg svg-js"></span>
-                  <span class="svg svg-github"></span>
-                </h3>
-              </div>
-
-              
-
-              <div class="panel">
-                <a href="https://free-code-camp-indy.github.io/" target="_blank"><img src="img/meetup.png" alt="Free Code Camp Indy"></a>
-                <h1>Free Code Camp Indy Meetup Website</h1>
-                <p>Team leader of developers and designers for a local meetup group encouraging newbie developers to learn to code. Check out our <a href="https://docs.google.com/document/d/1PBaRWUjsR6IVD2P5Tz7H1N6wzE8awM7oETdUfBA9o1Q/edit?usp=sharing" target="_blank">design document</a>!</p>
-                <h3>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-css"></span>
-                  <span class="svg svg-js"></span>
-                  <span class="svg svg-github"></span>
-                </h3>
-              </div>
-
-              <div class="panel">
-                <a href="http://www.mattattaq.com/" target="_blank"><img src="img/t1_mattattaq.png" alt="My website where I host my comics"></a>
-                <h1>MattAttaq.com</h1>
-                <p>Starting 2015 in September mattattaq.com featured my comic works from college and beyond.</p>
-                <h3>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-css"></span>
-                  <span class="svg svg-js"></span>
-                  <span class="svg svg-wordpress"></span>
-                  <span class="svg svg-art"></span>
-                </h3>
-              </div>
-
-              <div class="panel" id="gn">
-                <a href="https://www.amazon.com/Reggie-Rabbit-Matthew-Albright/dp/0991528271/ref=sr_1_4?ie=UTF8&qid=1469206572&sr=8-4&keywords=reggie+and+the+rabbit" target="_blank"><img src="img/t2_rtr.png" alt="Reggie and the Rabbit Amazon link"></a>
-                <h1>Reggie and the Rabbit</h1>
-                <p>Here is the amazon link to my first graphic novel Reggie and the Rabbit. This was the product of my senior project at IUPUI.</p>
-                <h3>
-                  <span class="svg svg-art"></span>
-                </h3>
-              </div>
-
-              <div class="panel" id="gh">
-                <a href="https://github.com/mattattaq" target="_blank"><img src="img/t3_github.png" alt="Github repos"></a>
-                <h1>Github Repos</h1>
-                <p>Here is where I have some of the templates that I've worked on for work. It also has this profolio website in one of the repos!</p>
-                <h3>
-                  <span class="svg svg-github"></span>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-css"></span>
-                  <span class="svg svg-js"></span>
-                </h3>
-              </div>
-
-              <div class="panel">
-                <a href="rolodorks/index.html" target="_blank"><img src="img/t5_rolodorks.png" alt="RoloDorks card app"></a>
-                <h1>Rolodorks <span class="wip">WIP</span></h1>
-                <p>Personal project, the problem what I was solving is I had a ton of business cards and wanted to preserve the art. Images saved on imgur and iterated through a json object.</p>
-                <h3>
-                  <span class="svg svg-react"></span>
-                  <span class="svg svg-js"></span>
-                  <span class="svg svg-html"></span>
-                  <span class="svg svg-css"></span>
-                  <span class="svg svg-github"></span>
-                </h3>
-              </div>
-
-              <div class="panel">
-                <a href="https://mattattaqdevblog.wordpress.com/" target="_blank"><img src="img/t6_blog.png" alt="Developer Blog"></a>
-                <h1>Developer Blog</h1>
-                <p>Was inspired to document my experience in code so as to have a reference in the future.</p>
-                <!-- <span class="tech">Tech Used:</span> -->
-                <h3>
-                  <span class="svg svg-wordpress"></span>
-                </h3>
-              </div>
-
-              <center><h1>More to come!</h1></center>
-            </div>
-            <div class="right">
-                <center><a class="twitter-timeline"  href="https://twitter.com/MattAttaqComic" data-widget-id="675061151571402752">Tweets by @MattAttaqComic</a></center>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-          </div>
-        </section>
         <section id="sec4">
           <div class="container">
             <header>
