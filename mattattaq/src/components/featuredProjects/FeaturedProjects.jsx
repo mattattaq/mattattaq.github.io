@@ -99,8 +99,6 @@ export default function FeaturedProjects() {
                         techIcons={panel.techIcons}
                         />
                 ))}
-                
-                <center><h1>More to come!</h1></center>
                 </Col>
                 <Col lg={3} className="right">
                     <center><a className="twitter-timeline"  href="https://twitter.com/MattAttaqComic" data-widget-id="675061151571402752">Tweets by @MattAttaqComic</a></center>
