@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/CustomsForge/ignition4-template#readme",
   "devDependencies": {
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "gulp": "^3.9.1",
     "gulp-insert": "^0.5.0",
     "gulp-jshint": "^2.1.0",
