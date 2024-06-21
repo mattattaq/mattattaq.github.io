@@ -14,6 +14,7 @@ const FeaturedProjects = () => {
                     throw new Error('Failed to fetch data');
                 }
                 const data = await response.json();
+                console.log('data', data);
                 setPanelProps(data);
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -36,7 +37,7 @@ const FeaturedProjects = () => {
                     img={panel.img}
                     title={panel.title}
                     description={panel.description}
-                    techIcons={panel.img}
+                    techIcons={panel.techIcons}
                     key={panel.title}
                     />
                 ))}
