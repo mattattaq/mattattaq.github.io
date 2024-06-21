@@ -29,7 +29,7 @@ const FeaturedProjects = () => {
           <div id="to-top"><a href="#wrapper">Scroll to Top</a></div>
           <Container>
               <Row>
-                <Col lg={12} className="left">
+                <Col lg={12}>
                 <h4><b>Projects</b></h4>
                 {panelProps.map(panel => (
                     <Panel

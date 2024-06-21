@@ -2,7 +2,6 @@ import React from 'react';
 import parse from "html-react-parser";
 
 export default function Panel(props) {
-    console.log(props);
     const home = 'https://mattattaq.github.io/mattattaq/'
     return (
         <div className="panel">
