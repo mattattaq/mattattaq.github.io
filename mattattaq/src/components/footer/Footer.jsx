@@ -26,7 +26,7 @@ export default function Footer(props) {
                     </a>
                 )}
             </ul>
-        <p>© 2022 Matthew Allbright</p>
+        <p>© 2024 Matthew Allbright</p>
     </footer>
     );
 }

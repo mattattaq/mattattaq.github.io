@@ -45,13 +45,13 @@ if ($(window.location.hash).length > 1) {
 }
 
 //toggle sticky
-var elementPosition = $('#toTop').offset();
+var elementPosition = $('#to-top').offset();
 
 $(window).scroll(function(){
         if($(window).scrollTop() > elementPosition.top){
-              $('#toTop').css('position','fixed').css('bottom','0').css('visibility','visible');
+              $('#to-top').css('position','fixed').css('bottom','0').css('visibility','visible');
         } else {
-            $('#toTop').css('position','absolute').css('visibility','hidden');
+            $('#to-top').css('position','absolute').css('visibility','hidden');
         }
 });
 

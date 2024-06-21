@@ -280,19 +280,11 @@ to { -webkit-transform: rotateY(2160deg); -moz-transform: rotateY(2160deg); tran
   -webkit-box-shadow: inset 10px 10px 46px -20px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 10px 10px 46px -20px rgba(0,0,0,0.75);
   box-shadow: inset 10px 10px 46px -20px rgba(0,0,0,0.75);
-  /*Testing*/
-  /*border-style: dashed;
-  border-color: blue;
-  margin-bottom: 10px;*/
 }
 .left{
   width: 640px;
   float: left;
   min-height: 400px;
-  /*Testing*/
-  /*display: inline-block;
-  border-style: dashed;
-  border-color: red;*/
 }
 
 .break{
@@ -470,7 +462,6 @@ background-image: url(img/heads.png);
 #coin .back {
 transform: translateZ(-1px) rotateY(180deg);
 border-radius: 50%;
-/*background-color: #2ecc71;*/
 background-image: url(img/tails.png);
 }
 
@@ -516,7 +507,7 @@ animation: rotate2160 3s linear forwards;
 footer #social{
   padding: 10px 0 10px 0;
 }
-#toTop {
+#to-top {
   width: 40px;
   height: 40px;
   padding: 7px;
@@ -537,7 +528,7 @@ footer #social{
   text-align: center;
   margin-left: -27px;
 }
-#toTop a {
+#to-top a {
   text-decoration: none;
   font-size: 10px;
   line-height: 11px;

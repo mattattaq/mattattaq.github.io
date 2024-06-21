@@ -12,18 +12,12 @@ import {
 import {
   faLinkedin,
   faFacebook,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 const socialLinks = [{
     link: "https://www.facebook.com/MattAttaqArt/?fref=ts",
     font: faFacebook,
     id: "facebook"
-    },
-    {
-    link: "https://twitter.com/MattAttaqComic",
-    font: faTwitter,
-    id: "twit"
     },
     {
     link: "https://www.linkedin.com/in/matthew-allbright-b4896749",
