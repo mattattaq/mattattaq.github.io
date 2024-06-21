@@ -6,6 +6,7 @@ import Profile from './components/profile/Profile';
 import FeaturedProjects from './components/featuredProjects/FeaturedProjects';
 import TimeLine from './components/timeLine/TimeLine';
 import Footer from './components/footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
@@ -14,31 +15,37 @@ import {
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
-const socialLinks = [{
+const socialLinks = [
+  {
     link: "https://www.facebook.com/MattAttaqArt/?fref=ts",
     font: faFacebook,
     id: "facebook"
-    },
-    {
+  },
+  {
     link: "https://www.linkedin.com/in/matthew-allbright-b4896749",
     font: faLinkedin,
     id: "linkedin"
-    },
-    {
+  },
+  {
     link: "mailto:mattatttaq@gmail.com",
     font: faEnvelope,
     id: "mail"
-    }];
+  }
+];
 
 function App() {
   return (
-    <div className="App" id="wrapper">
-      <Header socialLinks={socialLinks} />
-      <Profile />
-      <FeaturedProjects />
-      <TimeLine />
-      <Footer socialLinks={socialLinks} />
-    </div>
+    <Router>
+      <div className="App" id="wrapper">
+        <Header socialLinks={socialLinks} />
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route path="/panel" element={<FeaturedProjects edits={true} />} />
+          <Route path="/timeline" element={<TimeLine edits={true} />} />
+        </Routes>
+        <Footer socialLinks={socialLinks} />
+      </div>
+    </Router>
   );
 }
 

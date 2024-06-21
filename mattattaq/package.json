@@ -21,6 +21,7 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
     "react-lazyload": "^3.2.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "^5.0.1",
     "save-dev": "0.0.1-security",
     "web-vitals": "^2.1.4"
