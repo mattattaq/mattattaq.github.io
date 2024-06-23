@@ -29,7 +29,7 @@ const FeaturedProjects = () => {
           <Container>
               <Row>
                 <Col lg={12}>
-                <h4><b>Projects</b> <a href="/panel">edit?</a></h4>
+                <h4><b>Projects</b> <a href="/#/panel">edit?</a></h4>
                 {panelProps.map(panel => (
                     <Panel
                     link={panel.link}

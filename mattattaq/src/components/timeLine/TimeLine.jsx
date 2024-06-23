@@ -25,7 +25,7 @@ export default function Timeline() {
     <section id="sec4">
       <Container>
         <header>
-          <h2>Work Timeline  <a href="/timeline">edit?</a></h2>
+          <h2>Work Timeline  <a href="/#/timeline">edit?</a></h2>
         </header>
         <div id="timeline">
           {timelineEvents.map((event, index) => (

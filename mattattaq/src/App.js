@@ -6,7 +6,7 @@ import Profile from './components/profile/Profile';
 import FeaturedProjects from './components/featuredProjects/FeaturedProjects';
 import TimeLine from './components/timeLine/TimeLine';
 import Footer from './components/footer/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
