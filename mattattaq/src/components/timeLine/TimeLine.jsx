@@ -45,7 +45,7 @@ export default function Timeline({ edits }) {
     setTimelineEvents((prevEvents) => {
       const updatedEvents = [...prevEvents, entry];
       // Sort the updated events by date
-      return updatedEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+      return updatedEvents.sort((a, b) => new Date(b.date) - new Date(a.date));
     });
   };
 
