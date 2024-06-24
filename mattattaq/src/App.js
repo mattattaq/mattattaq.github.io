@@ -50,6 +50,7 @@ function App() {
     };
 
     checkServer();
+    console.log('editMode ',editMode)
   }, []);
 
   return (
