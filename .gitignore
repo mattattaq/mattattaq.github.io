@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+mattattaq/src/components/timeLine/timeline-server/node_modules
 
 # testing
 /coverage
