@@ -10,7 +10,7 @@
         "link": "http://schabel-realty.com/",
         "img": "t3_schabel.png",
         "title": "Schabel Property Management Group",
-        "description": "Tasked to upgrade an old site to a more modern mobile responsive site. Also updated the logo and created a graphic that can be used for their business card as well as colorizing a b&w photo to use as their main mast image. <a href=${schabelImg} target=\"_blank\">Here is the old version of the site</a> versus the <a href=${newShabelImg} target=\"_blank\">new site</a>.",
+        "description": "Tasked to upgrade an old site to a more modern mobile responsive site. Also updated the logo and created a graphic that can be used for their business card as well as colorizing a b&w photo to use as their main mast image. <a href='https://mattattaq.github.io/mattattaq/src/img/schabel_realty_old.png' target=\"_blank\">Here is the old version of the site</a> versus the <a href='https://mattattaq.github.io/mattattaq/src/img/schabel_realty_new.png' target=\"_blank\">new site</a>.",
         "techIcons": ["svg-html", "svg-art", "svg-css"]
     },
     {

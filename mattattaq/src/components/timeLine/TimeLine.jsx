@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom'; // Import useLocation
+import { useLocation } from 'react-router-dom';
 import TimelineForm from './TimeLineForm'; // Make sure the path is correct
 
 export default function Timeline({ edits }) {
   const [timelineEvents, setTimelineEvents] = useState([]);
-  const location = useLocation(); // Use useLocation to get the current path
+  const location = useLocation();
 
   useEffect(() => {
     const fetchTimelineEvents = async () => {
@@ -55,7 +55,7 @@ export default function Timeline({ edits }) {
     <section id="sec4">
       <Container>
         <header>
-          <h2>Work Timeline {edits && <a href="/#/timeline">edit?</a>}</h2>
+          <h2>Work Timeline {edits && location.pathname !== '/timeline' && <a href="/#/timeline">edit?</a>}</h2>
         </header>
         {edits && location.pathname === '/timeline' && <TimelineForm addEntry={addEntry} />}
         <div id="timeline">

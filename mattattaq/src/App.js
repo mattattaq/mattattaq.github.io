@@ -7,7 +7,6 @@ import FeaturedProjects from './components/featuredProjects/FeaturedProjects';
 import TimeLine from './components/timeLine/TimeLine';
 import Footer from './components/footer/Footer';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
 import {
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
@@ -35,32 +34,14 @@ const socialLinks = [
 ];
 
 function App() {
-  const [editMode, setEditMode] = useState(false);
-
-  useEffect(() => {
-    const checkServer = async () => {
-      try {
-        const response = await fetch('http://localhost:3001/timeline');
-        if (response.ok) {
-          setEditMode(true);
-        }
-      } catch (error) {
-        console.error('Localhost server not available:', error);
-      }
-    };
-
-    checkServer();
-    console.log('editMode ',editMode)
-  }, []);
-
   return (
     <Router>
       <div className="App" id="wrapper">
         <Header socialLinks={socialLinks} />
         <Routes>
-          <Route path="/" element={[<Profile />, <FeaturedProjects />, <TimeLine edits={editMode} />]} />
+          <Route path="/" element={[<Profile key="profile" />, <FeaturedProjects key="featured" />, <TimeLine key="timeline" edits={false} />]} />
           <Route path="/panel" element={<FeaturedProjects edits={true} />} />
-          <Route path="/timeline" element={<TimeLine edits={editMode} />} />
+          <Route path="/timeline" element={<TimeLine edits={true} />} />
         </Routes>
         <Footer socialLinks={socialLinks} />
       </div>
