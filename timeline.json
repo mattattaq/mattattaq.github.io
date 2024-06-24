@@ -135,13 +135,38 @@
     "description": "Graduated 2006 from James Madison High School."
   },
   {
-    "date": "2024-06-04",
-    "title": "test",
-    "description": "test"
+    "date": "2024-02-28",
+    "title": "Free Code Camp Indy Talk",
+    "description": "Gave an online talk for <a href='https://www.meetup.com/free-code-camp-indy/events/299320389/'>Free Code Camp Indy Talk</a> on Learning a New Programming Language"
   },
   {
-    "date": "2024-06-18",
-    "title": "test",
-    "description": "test"
+    "date": "2021-02-01",
+    "title": "Promotion to Software Engineer III",
+    "description": "Worked on primarily backend microservices in Scala fetching data from a MariaDb database after moving our Drupal stack to micro front-end apps in Next.js."
+  },
+  {
+    "date": "2022-08-01",
+    "title": "Promotion to Senior Software Engineer",
+    "description": "Started gaining more responsibility to architect solutions around dynamically creating sitemaps using the Slug table and a Scala ETL (extract - transform - load) cron jobs through Jenkins and files hosted on s3. Here is an <a href='https://www.angi.com/sitemap/leaf-sitemap-index.xml'>example</a>. Each XML file is created by template type."
+  },
+  {
+    "date": "2023-11-23",
+    "title": "Moved teams",
+    "description": "Moved from Brew-Tang Clan whose primary function was all the SEO traffic and template types on the micro front-end apps to SEM pages team SEMantics who were architecting a new hosting solution for template pages on cloudflare instead of the apps hosted through akamai. Tech stack changed a little: front end next, typescript and backend kotlin, java, and some shared scala services used as proxies to call java/kotlin services."
+  },
+  {
+    "date": "2021-03-01",
+    "title": "Angie's List is now Angi redesign",
+    "description": "After the merger with HomeAdvisor under the IAC umbrella Angie's List went through a redesign which included focusing primarily on home services which included a refactor of front-end apps to match design, consolidation on data services, and decommissioning non-home services."
+  },
+  {
+    "date": "2022-08-01",
+    "title": "Project Hydra",
+    "description": "After the merger with HomeAdvisor and Angie's List it took awhile to combine the pool of service providers. Project Hydra was an initiative to fetch HomeAdvisor pros on Angi and hydrate the featured pros while flattening the complexity on the two stacks and flattening the data points, and giving all service providers UUIDs instead of each system's own service-provider id. I was in charge of architecting the common services, how the stacks would interact, and how the fetching operations would work as well as consolidating the UUID pointers on the Angi database."
+  },
+  {
+    "date": "2018-06-23",
+    "title": "CustomForge redesign",
+    "description": "Contributed to the template and design for the <a href='https://ignition4.customsforge.com/'>custom dlc search engine</a> associated with <a href='https://customsforge.com/'>Custom Forge</a> which is an open source project to extend the functionality and custom downloadable content hub for the Ubisoft guitar learning game RockSmith 2014. Ignition4 is build using Laravel a PHP framework."
   }
 ]
