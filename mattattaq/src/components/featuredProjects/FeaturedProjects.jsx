@@ -5,9 +5,8 @@ import { useLocation } from 'react-router-dom';
 import PanelForm from './PanelForm'; // Assuming you have a form component for Panel
 import './featuredProjects.scss';
 
-const FeaturedProjects = () => {
+const FeaturedProjects = ({edits}) => {
     const [panelProps, setPanelProps] = useState([]);
-    const [editMode, setEditMode] = useState(false);
 
     const location = useLocation();
     useEffect(() => {
@@ -16,7 +15,6 @@ const FeaturedProjects = () => {
                 // Attempt to fetch from the local server
                 const response = await fetch('http://localhost:3001/panel');
                 if (response.ok) {
-                    setEditMode(true);
                     const data = await response.json();
                     setPanelProps(data);
                 } else {
@@ -51,8 +49,8 @@ const FeaturedProjects = () => {
             <Container>
                 <Row>
                     <Col lg={12}>
-                        <h4><b>Projects</b> {editMode && location.pathname !== '/panel' && <a href="/#/panel">edit?</a>}</h4>
-                        {editMode && <PanelForm addEntry={addEntry} />}
+                        <h4><b>Projects</b> </h4>
+                        {edits  && location.pathname === '/panel' && <PanelForm addEntry={addEntry} />}
                         {panelProps.map((panel, index) => (
                             // Render panel only if link is present
                             panel.link && (

@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://en.wikipedia.org/wiki/Marvel_vs._Capcom_2:_New_Age_of_Heroes#/media/File:MvC2_JP_Cover.jpg",
-    "img": "https://upload.wikimedia.org/wikipedia/en/8/88/MvC2_JP_Cover.jpg",
-    "title": "foo",
-    "description": "bar",
-    "techIcons": [
-      "svg-js",
-      "svg-html"
-    ]
-  },
-  {
     "link": "https://mattattaq.github.io/vincent-fults-guitar",
     "img": "vincent.png",
     "title": "Vincent Fult's Website",
