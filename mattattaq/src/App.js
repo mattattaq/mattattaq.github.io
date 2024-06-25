@@ -39,7 +39,7 @@ function App() {
       <div className="App" id="wrapper">
         <Header socialLinks={socialLinks} />
         <Routes>
-          <Route path="/" element={[<Profile key="profile" />, <FeaturedProjects key="featured" />, <TimeLine key="timeline" edits={false} />]} />
+          <Route path="/" element={[<Profile key="profile" />, <FeaturedProjects key="featured" edits={false}/>, <TimeLine key="timeline" edits={false} />]} />
           <Route path="/panel" element={<FeaturedProjects edits={true} />} />
           <Route path="/timeline" element={<TimeLine edits={true} />} />
         </Routes>
