@@ -7,12 +7,12 @@
 ## Deploy
 Copy the build from mattatttaq/build to root.
 
-## Adding to the timeline
+## Adding to the timeline || panel
 * run the node server
 * run the app
-* navigate to http://localhost:3000/#/timeline and add to the timeline using the form
+* navigate to http://localhost:3000/#/timeline || http://localhost:3000/#/panel and add to the timeline or panel using the form
 
 ## Routes
 * [root](https://www.mattatttaq.com)
-* [panel](https://www.mattatttaq.com/panel)
-* [timeline](https://www.mattatttaq.com/timeline)
+* [panel](https://www.mattatttaq.com/#/panel)
+* [timeline](https://www.mattatttaq.com/#/timeline)
