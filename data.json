@@ -1,5 +1,12 @@
 [
   {
+    "link": "https://www.pepbinder.com/",
+    "img": "t7_pepbinder.png",
+    "title": "PEPBinder",
+    "description": "Ecommerce website to sell and market a Personal Estate Preparedness(PEP) Binder so as to organize last wishes and estate. Integrates with Stripe for payments.",
+    "techIcons": ["svg-html", "svg-js", "svg-css"]
+  },
+  {
     "link": "https://mattattaq.github.io/vincent-fults-guitar",
     "img": "vincent.png",
     "title": "Vincent Fult's Website",
@@ -11,7 +18,7 @@
     ]
   },
   {
-    "link": "http://schabel-realty.com/",
+    "link": "https://mattattaq.github.io/mattattaq/src/img/schabel_realty_new.png",
     "img": "t3_schabel.png",
     "title": "Schabel Property Management Group",
     "description": "Tasked to upgrade an old site to a more modern mobile responsive site. Also updated the logo and created a graphic that can be used for their business card as well as colorizing a b&w photo to use as their main mast image. <a href='https://mattattaq.github.io/mattattaq/src/img/schabel_realty_old.png' target=\"_blank\">Here is the old version of the site</a> versus the <a href='https://mattattaq.github.io/mattattaq/src/img/schabel_realty_new.png' target=\"_blank\">new site</a>.",
@@ -22,7 +29,7 @@
     ]
   },
   {
-    "link": "http://silverdoorspa.com/",
+    "link": "https://mattattaq.github.io/silverdoorspa/",
     "img": "t4_silverdoorspa.png",
     "title": "Silver Door Spa",
     "description": "Upgraded website from old php template to custom redesign. Source code can be found on my <a href=\"https://github.com/mattattaq/mattattaq.github.io/tree/master/silverdoorspa\" target=\"_blank\">GitHub</a>.",
@@ -74,19 +81,6 @@
     "title": "Github Repos",
     "description": "Here is where I have some of the templates that I've worked on for work. It also has this profolio website in one of the repos!",
     "techIcons": [
-      "svg-github"
-    ]
-  },
-  {
-    "link": "rolodorks/index.html",
-    "img": "t5_rolodorks.png",
-    "title": "Rolodorks <span className=\"wip\">WIP</span>",
-    "description": "Personal project, the problem what I was solving is I had a ton of business cards and wanted to preserve the art. Images saved on imgur and iterated through a json object.",
-    "techIcons": [
-      "svg-react",
-      "svg-js",
-      "svg-css",
-      "svg-html",
       "svg-github"
     ]
   },

@@ -66,18 +66,8 @@
   },
   {
     "date": "2015-11-05",
-    "title": "Published Reggie and the Rabbit",
-    "description": "After the success of the indiegogo I was able to publish my comic through both Holon Publishing and Brinkman Printers."
-  },
-  {
-    "date": "2015-11-05",
     "title": "Finished Reggie and the Rabbit",
     "description": "Finished R&tR and self published. Was approached by Holon Publishing, an artist collective and publishing house out of Bloomington."
-  },
-  {
-    "date": "2015-11-05",
-    "title": "Joined Holon Publishing as author and illustrator",
-    "description": "Joined Holon Publishing and entered publishing deal to distribute R&tR."
   },
   {
     "date": "2015-09-05",
@@ -86,18 +76,8 @@
   },
   {
     "date": "2015-09-05",
-    "title": "Started Reggie and the Rabbit Indiegogo",
-    "description": "Ran a successful indiegogo campaign to help fund publication."
-  },
-  {
-    "date": "2015-09-05",
     "title": "Started Mattattaq.com",
     "description": "Created my own comic based on WordPress to display my comic and maintained weekly page releases."
-  },
-  {
-    "date": "2015-05-05",
-    "title": "Exhibited at Indiana Comic Con",
-    "description": "Sold my illustrations, graphic novel, and attended panels."
   },
   {
     "date": "2015-05-05",
@@ -108,31 +88,6 @@
     "date": "2015-05-05",
     "title": "Graduated IUPUI",
     "description": "Graduated with a Bachelor's in Informatics."
-  },
-  {
-    "date": "2014-11-05",
-    "title": "Exhibited at INDYpendent Self-Publisher's Show",
-    "description": "Helped local artists actualize their ideas and sold my new comic It's All Downhill From Here."
-  },
-  {
-    "date": "2014-06-05",
-    "title": "Volunteered at Indy Pop Con",
-    "description": "Helped run photo booths, managed lines, and helped give guests directions and water if needed."
-  },
-  {
-    "date": "2014-04-05",
-    "title": "Volunteered at Indiana Comic Con",
-    "description": "Managed lines, helped with celebrity signings, and helped give guests directions and water if needed."
-  },
-  {
-    "date": "2010-01-05",
-    "title": "Started College",
-    "description": "Started at Indiana University - Purdue University Indianapolis (IUPUI) on New Media."
-  },
-  {
-    "date": "2006-05-05",
-    "title": "Graduated High School",
-    "description": "Graduated 2006 from James Madison High School."
   },
   {
     "date": "2024-02-28",
@@ -168,5 +123,10 @@
     "date": "2018-06-23",
     "title": "CustomForge redesign",
     "description": "Contributed to the template and design for the <a href='https://ignition4.customsforge.com/'>custom dlc search engine</a> associated with <a href='https://customsforge.com/'>Custom Forge</a> which is an open source project to extend the functionality and custom downloadable content hub for the Ubisoft guitar learning game RockSmith 2014. Ignition4 is build using Laravel a PHP framework."
+  },
+  {
+    "date": "2025-01-20",
+    "title": "Launched PEPBinder",
+    "description": "PEPBinder (Personal Estate Preparedness) is a Ecommerce website that sells a binder in which you can put your last wishes, any passwords you have for accounts, any assets & liabilities, as well as many other sections. Phyisical Binder is built by Cheryl Gentry and you may follow the project on <a href='https://www.linkedin.com/company/pep-binder-llc/posts/' target='_blank'>LinkedIN</a>"
   }
 ]
