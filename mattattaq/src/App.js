@@ -12,13 +12,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
-  faFacebook,
+  faDev,
 } from "@fortawesome/free-brands-svg-icons";
 
 const socialLinks = [
   {
-    link: "https://www.facebook.com/MattAttaqArt/?fref=ts",
-    font: faFacebook,
+    link: "https://intch.org/mattattaq",
+    font: faDev,
     id: "facebook"
   },
   {
