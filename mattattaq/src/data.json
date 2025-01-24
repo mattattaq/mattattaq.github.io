@@ -1,5 +1,12 @@
 [
     {
+        "link": "https://www.pepbinder.com/",
+        "img": "t7_pepbinder.png",
+        "title": "PEPBinder",
+        "description": "Ecommerce website to sell and market a Personal Estate Preparedness(PEP) Binder so as to organize last wishes and estate. Integrates with Stripe for payments, ",
+        "techIcons": ["svg-html", "svg-js", "svg-css"]
+    },
+    {
         "link": "https://mattattaq.github.io/vincent-fults-guitar",
         "img": "vincent.png",
         "title": "Vincent Fult's Website",
@@ -7,14 +14,14 @@
         "techIcons": ["svg-html", "svg-js", "svg-css"]
     },
     {
-        "link": "http://schabel-realty.com/",
+        "link": "https://mattattaq.github.io/mattattaq/src/img/schabel_realty_new.png",
         "img": "t3_schabel.png",
         "title": "Schabel Property Management Group",
         "description": "Tasked to upgrade an old site to a more modern mobile responsive site. Also updated the logo and created a graphic that can be used for their business card as well as colorizing a b&w photo to use as their main mast image. <a href=${schabelImg} target=\"_blank\">Here is the old version of the site</a> versus the <a href=${newShabelImg} target=\"_blank\">new site</a>.",
         "techIcons": ["svg-html", "svg-art", "svg-css"]
     },
     {
-        "link": "http://silverdoorspa.com/",
+        "link": "",
         "img": "t4_silverdoorspa.png",
         "title": "Silver Door Spa",
         "description": "Upgraded website from old php template to custom redesign. Source code can be found on my <a href=\"https://github.com/mattattaq/mattattaq.github.io/tree/master/silverdoorspa\" target=\"_blank\">GitHub</a>.",
@@ -35,25 +42,11 @@
         "techIcons": ["svg-html", "svg-css", "svg-js", "svg-github", "svg-wordpress", "svg-art"]
     },
     {
-        "link": "https://www.amazon.com/Reggie-Rabbit-Matthew-Albright/dp/0991528271/ref=sr_1_4?ie=UTF8&qid=1469206572&sr=8-4&keywords=reggie+and+the+rabbit",
-        "img": "t2_rtr.png",
-        "title": "Reggie and the Rabbit",
-        "description": "Here is the amazon link to my first graphic novel Reggie and the Rabbit. This was the product of my senior project at IUPUI.",
-        "techIcons": ["svg-art"]
-    },
-    {
         "link": "https://github.com/mattattaq",
         "img": "t3_github.png",
         "title": "Github Repos",
         "description": "Here is where I have some of the templates that I've worked on for work. It also has this profolio website in one of the repos!",
         "techIcons": ["svg-github"]
-    },
-    {
-        "link": "rolodorks/index.html",
-        "img": "t5_rolodorks.png",
-        "title": "Rolodorks <span className=\"wip\">WIP</span>",
-        "description": "Personal project, the problem what I was solving is I had a ton of business cards and wanted to preserve the art. Images saved on imgur and iterated through a json object.",
-        "techIcons": ["svg-react", "svg-js", "svg-css", "svg-html", "svg-github"]
     },
     {
         "link": "https://mattattaqdevblog.wordpress.com/",
