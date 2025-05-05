@@ -1,5 +1,26 @@
 [
     {
+        "link": "https://brushofrosepainting.com/",
+        "img": "t_brushofrosepainting.jpg",
+        "title": "Brush of Rose Painting",
+        "description": "This single page website it to help further the reach of this painting business that previously didn't have a <a href=\"https://brushofrosepainting.com/\" target=\"_blank\">website</a>. This is another vue application that you can check the repo <a href=\"https://github.com/mattattaq/brushofrosepainting\" target=\"_blank\">here</a>",
+        "techIcons": ["svg-vue", "svg-css", "svg-github"]
+    },
+    {
+        "link": "https://matts-shred-shack.com/",
+        "img": "t_matts-shred-shack.jpg",
+        "title": "Matt's Shred Shack",
+        "description": "Using gh-pages this singe page application is using Vue and a github redirect to point to a custom domain. This application is for Guitar Lessons with me!",
+        "techIcons": ["svg-vue", "svg-js", "svg-css", "svg-github"]
+    },
+    {
+        "link": "https://mattattaq.github.io/fastm8-frontend/",
+        "img": "t_fastM8.jpg",
+        "title": "FastM8",
+        "description": "This is a fasting app I built in vue and is hosted on a raspberry pi! The backend which is located <a href=\"https://github.com/mattattaq/fastm8-backend\" target=\"_blank\">here</a> is a node server that's a CRUD app that is hosted through cloudflare tunneling which you can check <a href=\"https://api.fastm8.app/status\" target=\"_blank\">here</a>.",
+        "techIcons": ["svg-html", "svg-vue", "svg-css", "svg-github"]
+    },
+    {
         "link": "https://www.pepbinder.com/",
         "img": "t7_pepbinder.png",
         "title": "PEPBinder",
