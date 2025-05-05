@@ -128,5 +128,25 @@
     "date": "2025-01-20",
     "title": "Launched PEPBinder",
     "description": "PEPBinder (Personal Estate Preparedness) is a Ecommerce website that sells a binder in which you can put your last wishes, any passwords you have for accounts, any assets & liabilities, as well as many other sections. Phyisical Binder is built by Cheryl Gentry and you may follow the project on <a href='https://www.linkedin.com/company/pep-binder-llc/posts/' target='_blank'>LinkedIN</a>"
+  },
+  {
+    "date": "2025-04-01",
+    "title": "Matt's Shred Shack",
+    "description": "A business site I made for gathering guitar students. Build in vue and deployed in github-pages with a custom redirect so you can hit <a href=\"https://matts-shred-shack.com/\" target=\"_blank\">matts-shred-shack.com</a>"
+  },
+  {
+    "date": "2025-04-14",
+    "title": "FastM8",
+    "description": "After trying a take-home project that featured dealing with time I was inspired to make a vue app to track fasting. <a href=\"https://github.com/mattattaq/fastm8-backend\" target=\"_blank\">Backend</a> is node hosted on a raspberry pi that's on my desk and <a href=\"https://github.com/mattattaq/fastm8-frontend\" target=\"_blank\">frontend</a> hosted through <a href=\"https://mattattaq.github.io/fastm8-frontend/\" target=\"_blank\">github-pages</a>. I wanted this to be similar to an app so I made this to function like a mobile app."
+  },
+  {
+    "date": "2025-05-02",
+    "title": "Brush of Rose Painting",
+    "description": "Professional website for Jessica Nedberg's interior and exterior painting business. This site is to gather customers in Indianapolis and surrounding towns, Frankfort Indiana, Valparaiso Indiana. You can check out the code <a href=\"https://github.com/mattattaq/brushofrosepainting\" target=\"_blank\">here</a>. "
+  },
+  {
+    "date": "2025-02-01",
+    "title": "Discord bot",
+    "description": "Python server that's hosted on my raspberry pi. It listens for when I stream on twitch and updates my discord server with a message that i'm streaming. I learned a lot about python and integrating with twitch and discord's APIs. You may check out the code <a href=\"https://github.com/mattattaq/servbot\" target=\"_blank\">here</a>"
   }
 ]
